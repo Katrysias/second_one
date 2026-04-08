@@ -1,0 +1,100 @@
+/* Body */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    color: green;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    color: blue;
+    line-height: 1.5;
+}
+
+/* Content Box */
+.content-box {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Lists */
+ol, ul {
+    margin: 10px 20px;
+}
